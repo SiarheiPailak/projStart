@@ -1,0 +1,197 @@
+body { margin: 2vw; 
+}
+
+
+
+
+/* header */
+
+header {
+  margin-bottom: 1.5vmin ; 
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  height: 3vw;
+}
+
+.header-top a {
+  margin: 0.75vw 0.75vw 0 0;
+
+  font-size: 2vw;
+  font-weight: 600;
+  text-decoration: none;
+  color: indigo;
+
+  position: absolute;
+  right: 2vw;
+}
+
+.lable {
+  display: flex;
+}
+
+.lable div {
+  display: flex;
+  align-items: center;
+
+  height: 14vw;
+}
+
+.lable div:nth-child(1){
+  width: 12vw;
+  }
+
+.lable div:nth-child(2){
+    width: 84vw;
+    justify-content: center;
+    }
+
+.lable div img {
+  width: 12vw;
+}
+
+#header-title {
+  font-family: "Ruslan Display", cursive;
+  font-size: 10vw;
+  color: #3c82c2;
+
+  margin: 0;
+}
+
+
+
+
+/* nav */
+
+nav {
+  margin-bottom: 1vmin ; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
+nav a {
+  display: block;
+
+  text-decoration: none;
+  color: #fff;
+  font-family: arial;
+  font-size: 1.3vw;
+  line-height: 5vmin;
+
+  padding: 0px 1vw;
+  background: #32989a;
+  border-right: 0.5vw solid #2d149d; 
+  border-radius: 1vw;
+}
+
+nav a:hover {
+  background: #154877;
+}
+
+.menu1 {
+  min-width: 16vw;
+  width: max-content;
+}
+
+.menu2,
+.menu3 {
+  display: none;
+}
+
+.menu2 li {
+  position: relative;
+
+  width: max-content;
+  min-width: 16vw;
+}
+
+.menu3 > li {
+  left: 16vw;
+  top: -5vmin;
+}
+
+.menu1:hover > ul {
+  display: block;
+}
+
+.menu2 > li:hover > .menu3 {
+  display: block;
+}
+
+
+
+
+/* main */
+
+.slider {
+  width: 96vw;
+  /* margin: 2vw;  */
+}
+
+.slider img {
+  width: 96vw;
+}
+
+
+
+.photo-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photo-box div, .photo-box div img {
+  width: 45vw;
+  margin: 1vmin;
+}
+
+.image_title {
+  margin: 0 0 0 3vmin;
+  font-size: 2vw;
+}
+
+
+
+
+.end_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.innerImg {
+  width: 98vmin;
+  margin: 0 auto 1vw auto;
+}
+
+.end_main h2 {
+  width: 96vmin;
+  margin: 1vw auto;
+}
+
+span {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.end_main p {
+  width: 96vmin;
+  margin: 0.5vw auto;
+}
+
+
+
+
+
+
+
