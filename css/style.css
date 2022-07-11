@@ -1,5 +1,14 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html{
+  min-height: 100%;
+}
+
 body {
   margin: 2vw;
+  background: linear-gradient(to top left, rgb(157, 189, 118), rgb(245, 237, 169));
 }
 
 /* 1 header */
@@ -120,7 +129,7 @@ nav a {
 }
 
 .sect div:nth-child(2) {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /* 4 footer */
@@ -224,7 +233,7 @@ span {
 
 /* 9 */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 999px) {
   /* 10 header */
 
   .header-top {

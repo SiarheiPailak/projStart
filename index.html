@@ -1,255 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Главная</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&family=Ruslan+Display&display=swap"
-      rel="stylesheet"
-    />
+<html lang="ru">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Главная</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ruslan+Display&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body onload="changePic()">
-    <header>
-      <div class="header-top">
-        <a href="index_by.html">BY</a>
-      </div>
-      <div class="label">
-        <div>
-          <img src="images/emblem.png" alt="" />
-        </div>
-        <div>
-          <h1 id="header-title">Молодечно</h1>
-        </div>
-      </div>
-    </header>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
 
-    <nav>
-      <div class="menu1"><a href="index.html">Главная</a></div>
-      <div class="menu1">
-        <a href="pages/relax.html">Отдых и развлечения</a>
-        <ul class="menu2">
-          <li><a href="pages/relax/ice_arena.html">Ледовая арена</a></li>
-          <li><a href="pages/relax/park.html">Парк Победы</a></li>
-          <li>
-            <a href="pages/relax/street-food.html">Улица стрит-фуда</a>
-          </li>
-        </ul>
-      </div>
-      <div class="menu1">
-        <a href="objects_of_trade.html">Объекты торговли</a>
-        <ul class="menu2">
-          <li>
-            <a href="pages/section_objects_of_trade/shopping_centers.html"
-              >Торговые центры</a
-            >
-            <ul class="menu3">
-              <li>
-                <a
-                  href="pages/section_objects_of_trade/shopping_centers/trojka.html"
-                  >Торговый центр "Тройка"</a
-                >
-              </li>
-              <li>
-                <a
-                  href="pages/section_objects_of_trade/shopping_centers/modul.html"
-                  >Торговый центр "Модуль"</a
-                >
-              </li>
-              <li>
-                <a
-                  href="pages/section_objects_of_trade/shopping_centers/e-city.html"
-                  >Торговый центр "Е-сити"</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="pages/section_objects_of_trade/supermarkets.html"
-              >Супермаркеты</a
-            >
-            <ul class="menu3">
-              <li>
-                <a href="pages/section_objects_of_trade/supermarkets/ALMI.html"
-                  >Супермаркет "АЛМИ"</a
-                >
-              </li>
-              <li>
-                <a
-                  href="pages/section_objects_of_trade/supermarkets/martin.html"
-                  >Супермаркет "МАРТИН"</a
-                >
-              </li>
-              <li>
-                <a href="pages/section_objects_of_trade/supermarkets/santa.html"
-                  >Супермаркет "Санта"</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="pages/section_objects_of_trade/shops.html">Магазины</a>
-            <ul class="menu3">
-              <li>
-                <a href="pages/section_objects_of_trade/shops/wodar.html"
-                  >Магазин "Водар хлеба"</a
-                >
-              </li>
-              <li>
-                <a href="pages/section_objects_of_trade/shops/fest.html"
-                  >Магазин "Фестивальный"</a
-                >
-              </li>
-              <li>
-                <a href="pages/section_objects_of_trade/shops/falvarak.html"
-                  >Магазин "Мясны фальварак"</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="pages/section_objects_of_trade/pharm.html">Аптеки</a>
-            <ul class="menu3">
-              <li>
-                <a href="pages/section_objects_of_trade/pharm/mf_198.html"
-                  >Аптека № 198 РУП "Минская Фармация"</a
-                >
-              </li>
-              <li>
-                <a href="pages/section_objects_of_trade/pharm/iskamed.html"
-                  >Аптека "Искамед"</a
-                >
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="menu1">
-        <a href="auto.html">АЗС и автосервис</a>
-        <ul class="menu2">
-          <li>
-            <a href="pages/section_auto/gas_stations.html">АЗС</a>
-            <ul class="menu3">
-              <li>
-                <a href="pages/section_auto/gas_stations/BNH.html"
-                  >АЗС "Белоруснефть"</a
-                >
-              </li>
-              <li>
-                <a href="pages/section_auto/gas_stations/lukoil.html"
-                  >АЗС "Лукойл"</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="pages/section_auto/car_washes.html">Автомойки</a>
-            <ul class="menu3">
-              <li>
-                <a href="pages/section_auto/car_washes/super_6.html"
-                  >Автомойка "Супер 6"</a
-                >
-              </li>
-              <li>
-                <a href="pages/section_auto/car_washes/H2O.html"
-                  >Автомойка "Аш два о"</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="pages/section_auto/service_stations.html">СТО</a>
-            <ul class="menu3">
-              <li>
-                <a href="pages/section_auto/service_stations/max_auto.html"
-                  >СТО "Макс авто"</a
-                >
-              </li>
-              <li>
-                <a href="pages/section_auto/service_stations/auto_exp.html"
-                  >СТО "АВТОЭКСПРЕСС"</a
-                >
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="menu1">
-        <a href="pages/churches.html">Религиозные объекты</a>
-        <ul class="menu2">
-          <li>
-            <a href="pages/churches/church_6.html"
-              >Церковь Рождества Христова</a
-            >
-          </li>
-          <li>
-            <a href="pages/churches/church_4.html"
-              >Собор Успения пресвятой Богородицы</a
-            >
-          </li>
-          <li>
-            <a href="pages/churches/church_pio.html">Костел Св. отца Пио</a>
-          </li>
-        </ul>
-      </div>
-      <div class="menu1">
-        <a href="pages/post.html">Почтовые отделения</a>
-        <ul class="menu2">
-          <li><a href="pages/post/post_2.html">РУП "Белпочта" № 2</a></li>
-          <li><a href="pages/post/post_7.html">РУП "Белпочта" № 7</a></li>
-        </ul>
-      </div>
-    </nav>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <main>
-      <div class="slider">
-        <img id="slider_jmg" src="" alt="" />
+<body onload="changePic()">
+  <header>
+    <div class="header-top">
+      <a href="index_by.html">BY</a>
+    </div>
+    <div class="label">
+      <div>
+        <img src="images/emblem.png" alt="" />
       </div>
-
-      <div class="sect">
-        <div><img src="images/statue.JPG" alt="" /></div>
-        <div>
-          <p>
-            Молодечно – город, где десоветизация названий прошла еще в 1990-х.
-            Здесь давно нет улиц Ленина, Коммунистической и Социалистической,
-            которые остались почти в каждом белорусском городе. Зато есть
-            Великий Гостинец, Скорины, Тарашкевича, Забейды-Сумицкого.
-          </p>
-          <p>
-            Молодечно – один из крупнейших районных центров в Минской области на
-            реке Уша. С 1944 до 1960 был областным. Находится в 73 километрах к
-            северо-западу от Минска. Население города – около 95 тысяч человек.
-          </p>
-
-          <p>
-            Уша протекает сразу за границей города. Известна еще и река
-            Молодочанка, которая якобы дала название городу. Но сейчас это –
-            узкий ручеек неподалеку от средней школы №1 имени Янки Купалы. За
-            пределами города со всех сторон – лес.
-          </p>
-          <p><cite>Информация взята с сайта planetabelarus.by</cite></p>
-        </div>
+      <div>
+        <h1 id="header-title">Молодечно</h1>
       </div>
-    </main>
+    </div>
+  </header>
 
-    <footer>
-      <p>
-        <a href="https://kraj.by/molodechno" target="_blank"
-          >Новости о городе Молодечно на сайте kraj.by</a
-        >
-      </p>
-    </footer>
+  <nav>
+    <div class="menu1"><a href="index.html">Главная</a></div>
+    <div class="menu1">
+      <a href="pages/relax.html">Отдых и развлечения</a>
+      <ul class="menu2">
+        <li><a href="pages/relax/ice_arena.html">Ледовая арена</a></li>
+        <li><a href="pages/relax/park.html">Парк Победы</a></li>
+        <li>
+          <a href="pages/relax/street-food.html">Улица стрит-фуда</a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu1">
+      <a href="objects_of_trade.html">Объекты торговли</a>
+      <ul class="menu2">
+        <li>
+          <a href="pages/section_objects_of_trade/shopping_centers.html">Торговые центры</a>
+          <ul class="menu3">
+            <li>
+              <a href="pages/section_objects_of_trade/shopping_centers/trojka.html">Торговый центр "Тройка"</a>
+            </li>
+            <li>
+              <a href="pages/section_objects_of_trade/shopping_centers/modul.html">Торговый центр "Модуль"</a>
+            </li>
+            <li>
+              <a href="pages/section_objects_of_trade/shopping_centers/e-city.html">Торговый центр "Е-сити"</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="pages/section_objects_of_trade/supermarkets.html">Супермаркеты</a>
+          <ul class="menu3">
+            <li>
+              <a href="pages/section_objects_of_trade/supermarkets/ALMI.html">Супермаркет "АЛМИ"</a>
+            </li>
+            <li>
+              <a href="pages/section_objects_of_trade/supermarkets/martin.html">Супермаркет "МАРТИН"</a>
+            </li>
+            <li>
+              <a href="pages/section_objects_of_trade/supermarkets/santa.html">Супермаркет "Санта"</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="pages/section_objects_of_trade/shops.html">Магазины</a>
+          <ul class="menu3">
+            <li>
+              <a href="pages/section_objects_of_trade/shops/wodar.html">Магазин "Водар хлеба"</a>
+            </li>
+            <li>
+              <a href="pages/section_objects_of_trade/shops/fest.html">Магазин "Фестивальный"</a>
+            </li>
+            <li>
+              <a href="pages/section_objects_of_trade/shops/falvarak.html">Магазин "Мясны фальварак"</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="pages/section_objects_of_trade/pharm.html">Аптеки</a>
+          <ul class="menu3">
+            <li>
+              <a href="pages/section_objects_of_trade/pharm/mf_198.html">Аптека № 198 РУП "Минская Фармация"</a>
+            </li>
+            <li>
+              <a href="pages/section_objects_of_trade/pharm/iskamed.html">Аптека "Искамед"</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="menu1">
+      <a href="auto.html">АЗС и автосервис</a>
+      <ul class="menu2">
+        <li>
+          <a href="pages/section_auto/gas_stations.html">АЗС</a>
+          <ul class="menu3">
+            <li>
+              <a href="pages/section_auto/gas_stations/BNH.html">АЗС "Белоруснефть"</a>
+            </li>
+            <li>
+              <a href="pages/section_auto/gas_stations/lukoil.html">АЗС "Лукойл"</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="pages/section_auto/car_washes.html">Автомойки</a>
+          <ul class="menu3">
+            <li>
+              <a href="pages/section_auto/car_washes/super_6.html">Автомойка "Супер 6"</a>
+            </li>
+            <li>
+              <a href="pages/section_auto/car_washes/H2O.html">Автомойка "Аш два о"</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="pages/section_auto/service_stations.html">СТО</a>
+          <ul class="menu3">
+            <li>
+              <a href="pages/section_auto/service_stations/max_auto.html">СТО "Макс авто"</a>
+            </li>
+            <li>
+              <a href="pages/section_auto/service_stations/auto_exp.html">СТО "АВТОЭКСПРЕСС"</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="menu1">
+      <a href="pages/churches.html">Религиозные объекты</a>
+      <ul class="menu2">
+        <li>
+          <a href="pages/churches/church_6.html">Церковь Рождества Христова</a>
+        </li>
+        <li>
+          <a href="pages/churches/church_4.html">Собор Успения пресвятой Богородицы</a>
+        </li>
+        <li>
+          <a href="pages/churches/church_pio.html">Костел Св. отца Пио</a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu1">
+      <a href="pages/post.html">Почтовые отделения</a>
+      <ul class="menu2">
+        <li><a href="pages/post/post_2.html">РУП "Белпочта" № 2</a></li>
+        <li><a href="pages/post/post_7.html">РУП "Белпочта" № 7</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <script src="js/slider.js"></script>
-  </body>
+  <main>
+    <div class="slider">
+      <img id="slider_jmg" src="" alt="" />
+    </div>
+
+    <div class="sect">
+      <div><img src="images/statue.JPG" alt="" /></div>
+      <div>
+        <p>
+          Молодечно – город, где десоветизация названий прошла еще в 1990-х.
+          Здесь давно нет улиц Ленина, Коммунистической и Социалистической,
+          которые остались почти в каждом белорусском городе. Зато есть
+          Великий Гостинец, Скорины, Тарашкевича, Забейды-Сумицкого.
+        </p>
+        <p>
+          Молодечно – один из крупнейших районных центров в Минской области на
+          реке Уша. С 1944 до 1960 был областным. Находится в 73 километрах к
+          северо-западу от Минска. Население города – около 95 тысяч человек.
+        </p>
+
+        <p>
+          Уша протекает сразу за границей города. Известна еще и река
+          Молодочанка, которая якобы дала название городу. Но сейчас это –
+          узкий ручеек неподалеку от средней школы №1 имени Янки Купалы. За
+          пределами города со всех сторон – лес.
+        </p>
+        <p><cite>Информация взята с сайта planetabelarus.by</cite></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://kraj.by/molodechno" target="_blank">Новости о городе Молодечно на сайте kraj.by</a>
+    </p>
+  </footer>
+
+  <script src="js/slider.js"></script>
+</body>
+
 </html>
